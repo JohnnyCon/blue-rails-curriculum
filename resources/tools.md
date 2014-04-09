@@ -15,6 +15,9 @@ Ruby on Rails.
 *   Curl
 *   HTML
 *   CSS
+*   SASS/SCSS
+*   Foundation
+*   Bootstrap
 *   JavaScript
 *   CoffeeScript
 *   Bundler
