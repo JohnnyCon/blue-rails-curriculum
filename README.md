@@ -48,6 +48,7 @@ installation process.
     * Command line basics
     * The Ruby Programming Language
     * Writing first ruby program
+    * [View Content](weeks/week1a.md "Week 1 - saturday")
 * **Wednesday** (2 hours)
     * Ruby on Rails Overview
     * The MVC Pattern
@@ -59,6 +60,7 @@ installation process.
     * Rake
     * Gems
     * Bundler
+    * [View Content](weeks/week1b.md "Week 1 - wednesday")
 
 #### Week 2
 * **Saturday** (4 hours)
@@ -80,6 +82,7 @@ installation process.
     * Strong parameters
     * Rails layouts
     * Adding Navigation to application
+
 
 #### Week 3
 * **Saturday** (4 hours)
@@ -183,7 +186,7 @@ installation process.
 * **Wednesday** (2 hours)
     * More ActiveRecord goodness
     * Attribute deletation
-    * ActiveRecrod scopes
+    * ActiveRecord scopes
     * Adding business rules/logic
     * Transactions
     * Pagination
@@ -223,3 +226,8 @@ installation process.
 [Atom]: http://www.atom.io
 [Postgresapp]: http://postgresapp.com/
 [iTerm2]: http://www.iterm2.com/
+
+
+
+[week1a content]: /weeks/week1a.md "View week one content"
+[view week 1 wednesday content]: /weeks/week1b.md
