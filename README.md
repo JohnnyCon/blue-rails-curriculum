@@ -4,8 +4,8 @@ Ruby on Rails Curriculum at Blue1647
 ## Overview
 
 The following curriculum and content was created for the [Code Chicago] "Beginning Ruby on
-Rails" course at [Blue1647]. The class includes 66 hours of in-class lectures
-and hands-on labs spanning 11 consecutive weeks. 
+Rails" course at [Blue1647] by [@johnnycon]. The class includes 66 hours of in-class lectures
+and hands-on labs spanning 11 weeks. 
 
 
 ## Pre-requisites
@@ -234,6 +234,6 @@ installation process.
 
 [Blue1647]: http://www.blue1647.com/
 [Code Chicago]: http://codechicago.com/
-
+[@johnnycon]: http://www.twitter.com/johnnycon
 
 
