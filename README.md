@@ -3,8 +3,10 @@ Ruby on Rails Curriculum at Blue1647
 
 ## Overview
 
-This class is about ... and shows ... and should be used as ... don't forget to
-...
+The following curriculum and content was created for the [Code Chicago] "Beginning Ruby on
+Rails" course at [Blue1647]. The class includes 66 hours of in-class lectures
+and hands-on labs spanning 11 consecutive weeks. 
+
 
 ## Pre-requisites
 This class assumes you are using either a Mac or Linux computer. While it is possible to do
@@ -112,6 +114,7 @@ installation process.
     * Flash message
     * Displaying flash messages
 * **Wednesday** (2 hours)
+    * HTML Overview
     * CSS Frameworks overview
     * Adding CSS styles to application
     * Overview on default Rails CSS conventions
@@ -183,6 +186,7 @@ installation process.
     * The Rails asset pipeline
     * Deploying to Heroku
     * Heroku commands
+    * Storing your secrets
 * **Wednesday** (2 hours)
     * More ActiveRecord goodness
     * Attribute deletation
@@ -201,6 +205,7 @@ installation process.
 * **Wednesday** (2 hours)
     * Timezones
     * Prettifying URLs
+    * Integration with 3rd party services
  
 #### Week 11
 * **Saturday** (4 hours)
@@ -227,7 +232,8 @@ installation process.
 [Postgresapp]: http://postgresapp.com/
 [iTerm2]: http://www.iterm2.com/
 
+[Blue1647]: http://www.blue1647.com/
+[Code Chicago]: http://codechicago.com/
 
 
-[week1a content]: /weeks/week1a.md "View week one content"
-[view week 1 wednesday content]: /weeks/week1b.md
+
