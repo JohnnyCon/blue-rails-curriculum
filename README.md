@@ -226,7 +226,8 @@ installation process.
 
 
 [Common Vocabulary]: resources/vocab.md
-[Complimentary Tools]: http://www.example.com/
+[Complimentary Tools]: resources/tools.md
+
 [Install Rails]: http://www.example.com/
 [Sublime Text]: http://www.sublimetext.com/
 [Atom]: http://www.atom.io
