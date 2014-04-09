@@ -85,11 +85,11 @@ _/app/views/events/show.html.erb_
 
 ```
 
-**New**
+**New/Create**
 
 _Class to implement_
 
-**Edit**
+**Edit/Update**
 
 _Class to implement_
 
