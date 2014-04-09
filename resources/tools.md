@@ -3,7 +3,7 @@
 
 Working with Ruby on Rails requires learning and understanding a host of other
 tools and underlying technologies.  The following list covers some of the most
-prevalent complimentary tools and activities you'll encounter when working with
+prevalent complimentary tools and technologies you'll encounter when working with
 Ruby on Rails.
 
 

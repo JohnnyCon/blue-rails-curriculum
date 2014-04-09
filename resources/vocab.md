@@ -2,8 +2,8 @@
 
 ## Overview
 
-Working in Ruby, Ruby on Rails, and Web Development requires the understanding of many
-terms that are frequently used.  The following is a list of some of the most
+Working in Ruby, Ruby on Rails, and Web Development requires an understanding of many
+new terms.  The following is a list of some of the most
 frequently used terms you'll encounter as you progress through class, read
 articles, and watch videos on Ruby on Rails. 
 
