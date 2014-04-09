@@ -148,13 +148,12 @@ installation process.
     * Select
     * Adding events model to group project
 * **Wednesday** (2 hours)
+    * [View Content](weeks/week6b.md "Week 6 - wednesday")
     * Enhancing our group project
     * Additional html/form helpers
     * Select lists
-    * Checkboxes
-    * Radio buttons
-    * Enums
     * Regular expression validations
+    * Uniqueness validations
 
 #### Week 7
 * **Saturday** (4 hours)
