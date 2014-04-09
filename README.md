@@ -215,6 +215,7 @@ installation process.
     * SQL Injection protection
     * Rails performance
     * Efficient Querying
+    * N+1 Queries
     * Caching
     * Key/Value stores
 * **Wednesday** (2 hours)
@@ -224,7 +225,7 @@ installation process.
 
 
 
-[Common Vocabulary]: http://www.example.com/
+[Common Vocabulary]: resources/vocab.md
 [Complimentary Tools]: http://www.example.com/
 [Install Rails]: http://www.example.com/
 [Sublime Text]: http://www.sublimetext.com/
