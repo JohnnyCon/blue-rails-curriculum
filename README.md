@@ -96,7 +96,7 @@ installation process.
     * Rails model generators with associations
 * **Wednesday** (2 hours)
     * Rails routes best practices
-    * Moving members as a nested resourced of company
+    * Moving members as a nested resource of company
     * Update application based on this change
 
 #### Week 4
@@ -189,7 +189,7 @@ installation process.
     * Storing your secrets
 * **Wednesday** (2 hours)
     * More ActiveRecord goodness
-    * Attribute deletation
+    * Attribute delegation
     * ActiveRecord scopes
     * Adding business rules/logic
     * Transactions
@@ -228,7 +228,7 @@ installation process.
 [Common Vocabulary]: resources/vocab.md
 [Complimentary Tools]: resources/tools.md
 
-[Install Rails]: http://www.example.com/
+[Install Rails]: http://installrails.com/
 [Sublime Text]: http://www.sublimetext.com/
 [Atom]: http://www.atom.io
 [Postgresapp]: http://postgresapp.com/
