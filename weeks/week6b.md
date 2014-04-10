@@ -85,17 +85,124 @@ _/app/views/events/show.html.erb_
 
 ```
 
-**New and Create**
+**Implement New/Create pairs and Edit/Update pairs**
 
-_Class to implement_
+Remember that New and Create actions always go together.  The same is true of
+Edit and update. 
 
-**Edit and Update**
 
-_Class to implement_
+**Implement destroy action**
 
-**Destroy**
+_/app/controllers/events_controller.rb_
+```ruby
+class EventsController < ApplicationController
 
-_Class to implement_
+  before_action :set_event, only: [:edit, :update, :destroy, :show]
+
+  def index
+    @events = Event.all
+  end
+
+  def show
+    @event = Event.find(params[:id])
+  end
+
+  def new
+    @event = Event.new
+  end
+
+  def create
+    @event = Event.new(event_params)
+
+    if @event.save
+      flash[:success] = "Saved event successfully"
+      redirect_to :events
+    else
+      flash[:alert] = "Failed to save event"
+      render 'new'
+    end
+  end
+
+  def edit
+  end
+
+  def update
+    if @event.update(event_params)
+      redirect_to :events
+    else
+      render 'edit'
+    end
+  end
+
+  def destroy
+    @event.destroy
+
+    redirect_to :events
+  end
+
+  def set_event
+    @event = Event.find(params[:id])
+  end
+
+  def event_params
+    params.require(:event)
+          .permit(:title, :description, :capacity, :start_at, :end_at)
+  end
+
+end
+
+```
+
+_/app/views/events/_form.html.erb_
+```html
+<ul>
+<% @event.errors.full_messages.each do |msg| %>
+  <li><%= msg %></li>
+<% end %>
+</ul>
+
+
+<%= form_for(@event) do |f| %>
+
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <br>
+
+  <%= f.label :description %>
+  <%= f.text_field :description %>
+  <br>
+
+  <%= f.label :capacity %>
+  <%= f.text_field :capacity %>
+  <br>
+
+  <%= f.label :start_at %>
+  <%= f.date_field :start_at %>
+  <br>
+
+  <%= f.label :end_at %>
+  <%= f.date_field :end_at %>
+  <br>
+
+  <%= f.submit class: "button radius" %>
+
+<% end %>
+```
+
+
+_/app/views/events/new.html.erb_
+```html
+<h2>New Event</h2>
+
+<%= render 'form' %>
+```
+
+_/app/views/events/edit.html.erb_
+```html
+<h2>Edit Event</h2>
+
+<%= render 'form' %>
+```
 
 
 #### Making company industry a drop down with limited options
