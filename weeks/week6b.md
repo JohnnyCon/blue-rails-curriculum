@@ -212,7 +212,7 @@ than allowing them to enter free-form data into the field.  The company industry
 is one example where we might want to limit their options. 
 
 
-_/app/views/events/show.html.erb_
+_/app/views/companies/show.html.erb_
 ```html
 <ul>
 <% @company.errors.full_messages.each do |msg| %>
