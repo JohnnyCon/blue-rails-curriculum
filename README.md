@@ -157,6 +157,7 @@ installation process.
 
 #### Week 7
 * **Saturday** (4 hours)
+    * [View Content](weeks/week6b.md "Week 7 - saturday")
     * Authentication
     * Authorization
     * Sessions
