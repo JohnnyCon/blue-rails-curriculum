@@ -18,3 +18,11 @@ and also output the result of running that expression.
 **Next**
 
 content
+
+
+
+**Path parameters vs. querystring parameters**
+Use querystring parameters for:
+*   filters
+*   search
+*   pagination

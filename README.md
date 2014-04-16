@@ -168,6 +168,7 @@ installation process.
     * Adding role
     * Conditionally displaying UI by role
 * **Wednesday** (2 hours)
+    * [View Content](weeks/week7b.md "Week 7 - wednesday")
     * Omniauth and Oauth
     * Integrating Twitter as auth provider
 
