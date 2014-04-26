@@ -5,14 +5,14 @@ Ruby on Rails Curriculum at Blue1647
 
 The following curriculum and content was created for the [Code Chicago] "Beginning Ruby on
 Rails" course at [Blue1647] by [@johnnycon]. The class includes 66 hours of in-class lectures
-and hands-on labs spanning 11 weeks. 
+and hands-on labs spanning 11 weeks.
 
 
 ## Pre-requisites
 This class assumes you are using either a Mac or Linux computer. While it is possible to do
 rails development using Windows, this curriculum assumes Linux or Mac OS.
 
-You'll need the following tools in order to complete the class. 
+You'll need the following tools in order to complete the class.
 
 ## Miscellaneous Resources
 *   [Common Vocabulary] and Terms in Ruby,  Ruby on  Rails, and Web Development
@@ -22,7 +22,7 @@ You'll need the following tools in order to complete the class.
 #### Tools
 The following instructions apply to Mac OS installation. Some of these installs
 will work on Linux, but others will require a separate Linux install and
-installation process. 
+installation process.
 
 1.  Rails
 2.  Ruby
@@ -174,8 +174,10 @@ installation process.
 
 #### Week 8
 * **Saturday** (4 hours)
+*   [View Content](weeks/week8a.md "Week 8 - saturday")
     * Hack on individual projects
 * **Wednesday** (2 hours)
+*   [View Content](weeks/week8b.md "Week 8 - wednesday")
     * JavaScript
     * jQuery
     * Ajax
@@ -183,11 +185,11 @@ installation process.
 
 #### Week 9
 * **Saturday** (4 hours)
-    * Sending and receiving email
+*   [View Content](weeks/week9a.md "Week 9 - saturday")
     * The Rails asset pipeline
     * Deploying to Heroku
     * Heroku commands
-    * Storing your secrets
+    * Working with configuration tokens/secrets
 * **Wednesday** (2 hours)
     * More ActiveRecord goodness
     * Attribute delegation
@@ -198,6 +200,7 @@ installation process.
 
 #### Week 10
 * **Saturday** (4 hours)
+    * Sending and receiving email
     * Unconventional forms/UI
     * More Ruby
     * Hashes and Arrays
@@ -207,7 +210,7 @@ installation process.
     * Timezones
     * Prettifying URLs
     * Integration with 3rd party services
- 
+
 #### Week 11
 * **Saturday** (4 hours)
     * Rails Security
@@ -238,5 +241,3 @@ installation process.
 [Blue1647]: http://www.blue1647.com/
 [Code Chicago]: http://codechicago.com/
 [@johnnycon]: http://www.twitter.com/johnnycon
-
-
